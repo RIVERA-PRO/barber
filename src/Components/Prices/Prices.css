@@ -1,0 +1,68 @@
+.Prices{
+    display: flex;
+    gap: 3rem;
+    padding: 50px 10%;
+    align-items: center;
+}
+.Prices img{
+    height: 80vh;
+    border-radius: 20px ;
+}
+.PriceText{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+   
+}
+.PriceText h1{
+    color: var(--text-color);
+    font-size: 40px;
+}
+.PriceText h3{
+    color: var(--text-color);
+    font-size: 25px;
+}
+.PriceText p{
+    color: var(--text-color2);
+    font-size: 15px;
+}
+.PriceText h5{
+    color: var(--text-color2);
+    font-size: 17px;
+}
+.PriceText span{
+    color: var(--color1);
+    font-size: 17px;
+}
+.pricesGrap{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.2rem;
+    justify-content: space-between;
+}
+@media (max-width: 700px){
+    .Prices{
+        display: flex;
+        padding: 50px 3%;
+        flex-direction: column;
+    }
+    .Prices img{
+        height: 60vh;
+        width: 100%;
+    }
+    .PriceText{
+        width: 100%;
+    }
+    .PriceText h1{
+        font-size: 25px;
+    }
+    .PriceText h3{
+        font-size: 20px;
+    }
+    .PriceText h5{
+        font-size: 14px;
+    }
+    .pricesGrap{
+        gap: 1rem;
+    }
+}
