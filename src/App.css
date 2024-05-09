@@ -30,7 +30,7 @@ a{
  body{
   background-color: var(--gris);
  }
- a, .detail-contain img, p,.modalNav, #SwiperSlide-scroll{
+ a,  p,.modalNav, #SwiperSlide-scroll{
   opacity: 0;
   animation: slideFromLeft 1s ease-in-out forwards;
   -webkit-animation: slideFromLeft 1s ease-in-out forwards;

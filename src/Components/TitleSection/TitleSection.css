@@ -6,11 +6,12 @@
     justify-content: center;
     text-align: center;
     flex-direction: column;
+    gap: 1rem;
 
 
 }
-.titleSection h3{
-    font-size: 25px;
+.titleSection h2{
+    font-size: 30px;
     color: var(--text-color);
 }
 .titleSection p{
@@ -22,7 +23,10 @@
     .titleSection h3{
         font-size: 17px;
         font-weight: 700;
-        
+     
+    }
+    .titleSection{
+        padding: 10px;
     }
     
 }

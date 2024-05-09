@@ -4,7 +4,7 @@ export default function TitleSection({ section, text }) {
     return (
         <div className='titleSection'>
 
-            <h3> {section}</h3>
+            <h2> {section}</h2>
             <p>{text}</p>
 
         </div>

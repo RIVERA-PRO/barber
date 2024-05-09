@@ -122,12 +122,13 @@ nav{
     display: flex;
     flex-direction: column;
     gap: 2rem;
+    padding: 20px;
 }
 
 .enlaces2 a{
     padding: 0px 10px;
     text-decoration: none;
-    color: var(--blanco)!important;
+    color: var(--text-color2);
  }
 
 
@@ -136,15 +137,11 @@ nav{
 
 .modalNav-content {
     width: 100%;
-    padding: 20px;
     display: flex;
     gap: 2rem;
     flex-direction: column;
 }
-.modalNav-content .logo{
-    border-bottom: 1px solid var(--gris2);
-    padding-bottom: 10px;
-}
+
 .modalNav {
     top: 0;
     background-color: var(--blanco);
@@ -178,6 +175,10 @@ nav{
 .redes-sociales a{
    font-size: 18px;
    color: var(--blanco);
+}
+.bgNav{
+    background-color: var(--bg-color);
+    padding: 20px;
 }
 @media (max-width: 900px) {
     .deNoneNav{

@@ -4,22 +4,28 @@
    flex-direction: column;
     justify-content: space-between;
     background-color: var(--bg-color);
+    padding: 50px 10%;
+    gap: 3rem;
+  
+  
 }
 
 .FooterContain a img{
-    width: 60px;
+    width: 120px;
 }
 .Footer{
     display: flex;
     justify-content: space-between;
     gap: 3rem;
-    padding: 50px 10%;
-    background-image: linear-gradient(90deg, var(--color1)0%, var(--color2) 100%);
-  
+   
+}
+.COPYRIGHT{
+    color: var(--blanco);
+    text-align: center;
 }
 .Footer2{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 3rem;
     padding: 50px 10%;
     color: var(--blanco);
@@ -29,10 +35,16 @@
 .Footer2 a{
     color: var(--blanco);
 }
+.footerText p{
+    color: var(--blanco);
+    width: 40vh;
+}
+
 .footerText{
     display: flex;
     flex-direction: column;
     gap: 1.3rem;
+   
 }
 .footerText h3{
     color: var(--blanco);
