@@ -11,19 +11,20 @@ export default function Team() {
         {
             image: team1,
             title: 'Juan Pérez',
-            text: 'Barbero experimentado con más de 10 años de experiencia.'
+            text: 'Experienced barber with over 10 years of experience.'
         },
         {
             image: team2,
             title: 'María García',
-            text: 'Estilista especializada en cortes de cabello modernos y tendencias de moda.'
+            text: 'Stylist specializing in modern haircuts and fashion trends.'
         },
         {
             image: team3,
             title: 'Luis Rodríguez',
-            text: 'Maestro en el arte del afeitado clásico y cuidado de la barba.'
+            text: 'Master in the art of classic shaving and beard care.'
         }
     ];
+
     return (
         <div className='Team'>
             <TitleSection section="OUR AWARD-WINNING HAIRCUT EXPARTS FOR YOU" text="Let that wise man, who praises our present offices, have a desire to gain, anyone and anything. By the services of those who praise, the flight to pleasure is spurred, let error flee from those who are easy and often flee, blessed is anyone who does so." />

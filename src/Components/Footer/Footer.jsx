@@ -48,7 +48,7 @@ export default function Footer() {
                     <Anchor to='' >Contact Us</Anchor>
                 </div>
             </div>
-            <p className='COPYRIGHT'>© COPYRIGHT 2024 - SDLC Corp - Transform Digital DMCC</p>
+            <p className='COPYRIGHT'>© COPYRIGHT 2024 - BARBER </p>
         </div>
     )
 }
